@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const HeaderCard = styled.div`
   width: 370px;
-  align-items: center;
+  position: sticky;
   padding-top: 8px;
   padding-bottom: 8px;
+  /* align-items: center; */
   top: 0;
-  position: sticky;
   background-color: white;
 `;
 

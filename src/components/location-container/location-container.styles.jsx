@@ -35,6 +35,7 @@ export const ArrowIcon = styled.div`
 
 export const DownArrowIcon = styled.div`
   text-align: center;
+  cursor: pointer;
   margin: -18px 8px 0px 8px;
   color: #f9423a;
   font-size: x-large;

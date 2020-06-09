@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+
+import LocationModal from "../location-modal/location-modal.component";
 
 import {
   LocationCard,
@@ -9,29 +11,26 @@ import {
   DestinationContainer,
 } from "./location-container.styles";
 
-class LocationContainer extends React.Component {
-  constructor() {
-    super();
+const LocationContainer = () => {
+  const [show, setShow] = useState(false);
+  const openModal = () => setShow(true);
+  const closeModal = () => setShow(false);
 
-    this.state = {
-      location: [],
-    };
-  }
-
-  render() {
-    return (
+  return (
+    <div>
       <LocationCard>
         <ArrowIcon>&#8592;</ArrowIcon>
         <div>
           <AlamatPengantaran>ALAMAT PENGANTARAN</AlamatPengantaran>
           <DestinationContainer>
             <Destination>Tokopedia Tower</Destination>
-            <DownArrowIcon>&#8964;</DownArrowIcon>
+            <DownArrowIcon onClick={openModal}>&#8964;</DownArrowIcon>
           </DestinationContainer>
         </div>
       </LocationCard>
-    );
-  }
-}
+      {show ? <LocationModal closeModal={closeModal} /> : null}
+    </div>
+  );
+};
 
 export default LocationContainer;
