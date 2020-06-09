@@ -23,7 +23,7 @@ const FoodMenu = ({ addItem, title, imageUrl, price, providedBy, kitchen, rating
   <FoodCard>
     <PhotoContainer src={imageUrl} />
     <TextContainer>
-      <Rating>{rating}</Rating>
+      <Rating>{rating} &#9733;</Rating>
       <Title>{title}</Title>
       <ProvidedBy>by {providedBy} &#183; {kitchen}</ProvidedBy>
     </TextContainer>

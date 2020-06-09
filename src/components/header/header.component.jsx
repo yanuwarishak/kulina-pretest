@@ -3,6 +3,7 @@ import React from "react";
 import { HeaderCard, DateNow, DatePickerContainer } from "./header.styles";
 
 import LocationContainer from "../location-container/location-container.component";
+import LunchDinnerContainer from "../lunchdinner-container/lunchdinner-container.component";
 import DatePicker from "../datepicker/DatePicker";
 
 class Header extends React.Component {
@@ -32,6 +33,7 @@ class Header extends React.Component {
             getSelectedDay={this.selectedDay}
           />
         </DatePickerContainer>
+        <LunchDinnerContainer />
         <DateNow>{this.state.dateNow}</DateNow>
       </HeaderCard>
     );

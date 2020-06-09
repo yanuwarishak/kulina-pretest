@@ -14,6 +14,7 @@ export const DatePickerContainer = styled.div`
   text-align: center;
   color: #424749;
   margin: 12px;
+  box-shadow: 0px 1px 2px #f1f1f2;
 `;
 
 export const DateNow = styled.h4`
