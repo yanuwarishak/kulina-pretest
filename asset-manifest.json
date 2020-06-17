@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5026bf02.chunk.css",
-    "main.js": "/static/js/main.bdf3d226.chunk.js",
-    "main.js.map": "/static/js/main.bdf3d226.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3d8a6125.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3d8a6125.js.map",
-    "static/js/2.bc4eceeb.chunk.js": "/static/js/2.bc4eceeb.chunk.js",
-    "static/js/2.bc4eceeb.chunk.js.map": "/static/js/2.bc4eceeb.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cb9cc22e6bc6fff8b6830156b60ce5d5.js": "/precache-manifest.cb9cc22e6bc6fff8b6830156b60ce5d5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5026bf02.chunk.css.map": "/static/css/main.5026bf02.chunk.css.map",
-    "static/js/2.bc4eceeb.chunk.js.LICENSE.txt": "/static/js/2.bc4eceeb.chunk.js.LICENSE.txt",
-    "static/media/shopping-cart.03dc4697.svg": "/static/media/shopping-cart.03dc4697.svg"
+    "main.css": "/kulina-pretest/static/css/main.5026bf02.chunk.css",
+    "main.js": "/kulina-pretest/static/js/main.d5b33472.chunk.js",
+    "main.js.map": "/kulina-pretest/static/js/main.d5b33472.chunk.js.map",
+    "runtime-main.js": "/kulina-pretest/static/js/runtime-main.9028a5fd.js",
+    "runtime-main.js.map": "/kulina-pretest/static/js/runtime-main.9028a5fd.js.map",
+    "static/js/2.6b49717a.chunk.js": "/kulina-pretest/static/js/2.6b49717a.chunk.js",
+    "static/js/2.6b49717a.chunk.js.map": "/kulina-pretest/static/js/2.6b49717a.chunk.js.map",
+    "index.html": "/kulina-pretest/index.html",
+    "precache-manifest.75c095e6eed9784873bdcde68a6a226f.js": "/kulina-pretest/precache-manifest.75c095e6eed9784873bdcde68a6a226f.js",
+    "service-worker.js": "/kulina-pretest/service-worker.js",
+    "static/css/main.5026bf02.chunk.css.map": "/kulina-pretest/static/css/main.5026bf02.chunk.css.map",
+    "static/js/2.6b49717a.chunk.js.LICENSE.txt": "/kulina-pretest/static/js/2.6b49717a.chunk.js.LICENSE.txt",
+    "static/media/shopping-cart.03dc4697.svg": "/kulina-pretest/static/media/shopping-cart.03dc4697.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d8a6125.js",
-    "static/js/2.bc4eceeb.chunk.js",
+    "static/js/runtime-main.9028a5fd.js",
+    "static/js/2.6b49717a.chunk.js",
     "static/css/main.5026bf02.chunk.css",
-    "static/js/main.bdf3d226.chunk.js"
+    "static/js/main.d5b33472.chunk.js"
   ]
 }
