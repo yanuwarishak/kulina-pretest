@@ -24,14 +24,15 @@ const mapStateToProps = ({ cart: { cartItems } }) => ({
 });
 
 const CartContainer = ({ toggleCartHidden, cartItems }) => {
-  const total = cartItems.reduce((prev, next) => { return prev + next}, 0);
+  const cartPrice = cartItems.map(a => a.price);
+  const total = cartPrice.reduce((prev, next) => { return prev + next}, 0);
 
   return (
     <CartContainerStyled onClick={toggleCartHidden}>
       <CartInformation>
         <div>
           <ItemsPrice>
-            {cartItems.length} Items | Rp. {total}
+            {cartItems.length} Items | Rp. {total.toLocaleString('id-ID')}
           </ItemsPrice>
           <OngkosKirim>Termasuk Ongkos Kirim</OngkosKirim>
         </div>

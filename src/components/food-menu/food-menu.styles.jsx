@@ -6,11 +6,11 @@ export const FoodCard = styled.div`
   flex-direction: column;
   border-radius: 5px;
   margin-bottom: 25px;
-  margin-top: 25px;
+  margin-top: 12px;
 
   &:last-child {
-        margin-bottom: 75px;
-    }
+    margin-bottom: 75px;
+  }
 `;
 
 export const PhotoContainer = styled.img`
@@ -21,37 +21,36 @@ export const PhotoContainer = styled.img`
 `;
 
 export const Rating = styled.p`
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   color: #6e7679;
   font-weight: 500;
   margin: 6px 0px 0px 0px;
   font-size: 12px;
-`
+`;
 
 export const Title = styled.h2`
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   color: #424749;
   font-size: 16px;
   margin: 6px 0px 12px 0px;
-`
+`;
 
 export const ProvidedBy = styled.p`
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   font-size: 12px;
   font-weight: 500;
   color: #6e7679;
   margin: -10px 0px 12px 0px;
-`
+`;
 
 export const Price = styled.p`
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   text-align: center;
   color: #424749;
   font-weight: 500;
   margin: 6px 0px 12px 0px;
   font-size: 16px;
-
-`
+`;
 
 export const TextContainer = styled.div`
   text-align: left;

@@ -16,7 +16,7 @@ import {
 import { addItem } from "../../redux/cart/cart.actions";
 
 const mapDispatchToProps = (dispatch) => ({
-  addItem: (price) => dispatch(addItem(price)),
+  addItem: (item) => dispatch(addItem(item)),
 });
 
 const FoodMenu = ({ addItem, title, imageUrl, price, providedBy, kitchen, rating }) => (
@@ -28,8 +28,8 @@ const FoodMenu = ({ addItem, title, imageUrl, price, providedBy, kitchen, rating
       <ProvidedBy>by {providedBy} &#183; {kitchen}</ProvidedBy>
     </TextContainer>
     <PriceAndCart>
-      <Price>Rp. {price}</Price>
-      <AddButton type="button" onClick={() => addItem(price)}>
+      <Price>Rp. {price.toLocaleString('id-ID')}</Price>
+      <AddButton type="button" onClick={() => addItem({title, providedBy, kitchen, price})}>
         ADD +
       </AddButton>
     </PriceAndCart>
