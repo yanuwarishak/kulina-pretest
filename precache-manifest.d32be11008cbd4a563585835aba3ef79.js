@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e855990c3aa020f584492ea1bda726af",
+    "revision": "9751e55ad12802844ee0003cf689a658",
     "url": "/kulina-pretest/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kulina-pretest/static/css/2.257f4af1.chunk.css"
   },
   {
-    "revision": "33055b3e66c20bce1db4",
+    "revision": "ddb037300941275add60",
     "url": "/kulina-pretest/static/css/main.a4474a54.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kulina-pretest/static/js/2.5abaf2a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33055b3e66c20bce1db4",
-    "url": "/kulina-pretest/static/js/main.9c40cab9.chunk.js"
+    "revision": "ddb037300941275add60",
+    "url": "/kulina-pretest/static/js/main.17a84634.chunk.js"
   },
   {
     "revision": "240074c40c54e57cb8c0",
