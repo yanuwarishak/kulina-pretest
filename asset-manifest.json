@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/kulina-pretest/static/css/main.5026bf02.chunk.css",
-    "main.js": "/kulina-pretest/static/js/main.d5b33472.chunk.js",
-    "main.js.map": "/kulina-pretest/static/js/main.d5b33472.chunk.js.map",
+    "main.css": "/kulina-pretest/static/css/main.a4474a54.chunk.css",
+    "main.js": "/kulina-pretest/static/js/main.9c40cab9.chunk.js",
+    "main.js.map": "/kulina-pretest/static/js/main.9c40cab9.chunk.js.map",
     "runtime-main.js": "/kulina-pretest/static/js/runtime-main.9028a5fd.js",
     "runtime-main.js.map": "/kulina-pretest/static/js/runtime-main.9028a5fd.js.map",
-    "static/js/2.6b49717a.chunk.js": "/kulina-pretest/static/js/2.6b49717a.chunk.js",
-    "static/js/2.6b49717a.chunk.js.map": "/kulina-pretest/static/js/2.6b49717a.chunk.js.map",
+    "static/css/2.257f4af1.chunk.css": "/kulina-pretest/static/css/2.257f4af1.chunk.css",
+    "static/js/2.5abaf2a8.chunk.js": "/kulina-pretest/static/js/2.5abaf2a8.chunk.js",
+    "static/js/2.5abaf2a8.chunk.js.map": "/kulina-pretest/static/js/2.5abaf2a8.chunk.js.map",
     "index.html": "/kulina-pretest/index.html",
-    "precache-manifest.75c095e6eed9784873bdcde68a6a226f.js": "/kulina-pretest/precache-manifest.75c095e6eed9784873bdcde68a6a226f.js",
+    "precache-manifest.37d82d48843ea5264d0294e0cbe505c6.js": "/kulina-pretest/precache-manifest.37d82d48843ea5264d0294e0cbe505c6.js",
     "service-worker.js": "/kulina-pretest/service-worker.js",
-    "static/css/main.5026bf02.chunk.css.map": "/kulina-pretest/static/css/main.5026bf02.chunk.css.map",
-    "static/js/2.6b49717a.chunk.js.LICENSE.txt": "/kulina-pretest/static/js/2.6b49717a.chunk.js.LICENSE.txt",
+    "static/css/2.257f4af1.chunk.css.map": "/kulina-pretest/static/css/2.257f4af1.chunk.css.map",
+    "static/css/main.a4474a54.chunk.css.map": "/kulina-pretest/static/css/main.a4474a54.chunk.css.map",
+    "static/js/2.5abaf2a8.chunk.js.LICENSE.txt": "/kulina-pretest/static/js/2.5abaf2a8.chunk.js.LICENSE.txt",
+    "static/media/place-white-24dp.5d0e17a6.svg": "/kulina-pretest/static/media/place-white-24dp.5d0e17a6.svg",
     "static/media/shopping-cart.03dc4697.svg": "/kulina-pretest/static/media/shopping-cart.03dc4697.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9028a5fd.js",
-    "static/js/2.6b49717a.chunk.js",
-    "static/css/main.5026bf02.chunk.css",
-    "static/js/main.d5b33472.chunk.js"
+    "static/css/2.257f4af1.chunk.css",
+    "static/js/2.5abaf2a8.chunk.js",
+    "static/css/main.a4474a54.chunk.css",
+    "static/js/main.9c40cab9.chunk.js"
   ]
 }
