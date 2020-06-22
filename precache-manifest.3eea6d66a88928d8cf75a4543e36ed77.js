@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34fae77c3cbe903d1685924cf6ce426b",
+    "revision": "3096c2bd21aea6e7faaebe4fb1b6602f",
     "url": "/kulina-pretest/index.html"
   },
   {
