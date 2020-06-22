@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kulina-pretest/precache-manifest.d32be11008cbd4a563585835aba3ef79.js"
+  "/kulina-pretest/precache-manifest.cc07325a8815a2e3ea0f47a542962a53.js"
 );
 
 self.addEventListener('message', (event) => {
